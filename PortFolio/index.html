@@ -54,7 +54,7 @@
               Officia, libero? Lorem ipsum dolor sit amet consectetur
               adipisicing elit. Neque blanditiis sed aut!
             </p>
-            <a href="./Resume.pdf" target="_blank"  class="cv">Download CV</a>
+            <a href="./Resume.pdf" target="_blank" class="cv">Download CV</a>
           </div>
         </div>
         <div id="about-me">
@@ -115,7 +115,11 @@
               <div class="project-info">
                 <h1>Portfolio</h1>
 
-                <a href="#" class="project-link">View Project</a>
+                <a
+                  href="https://codsoft-portfolioproject.netlify.app"
+                  class="project-link"
+                  >View Project</a
+                >
               </div>
             </div>
             <div class="project">
@@ -125,7 +129,11 @@
               <div class="project-info">
                 <h1>Landing-page</h1>
 
-                <a href="#" class="project-link">View Project</a>
+                <a
+                  href="https://codsoft-landingpageproject.netlify.app"
+                  class="project-link"
+                  >View Project</a
+                >
               </div>
             </div>
             <div class="project">
@@ -135,7 +143,11 @@
               <div class="project-info">
                 <h1>Calculator</h1>
 
-                <a href="#" class="project-link">View Project</a>
+                <a
+                  href="https://codsoft-calculatorproject.netlify.app"
+                  class="project-link"
+                  >View Project</a
+                >
               </div>
             </div>
           </section>
@@ -206,16 +218,16 @@
   </body>
   <script>
     // make the scroll through the page smooth
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-      e.preventDefault();
-      
-      const target = document.querySelector(this.getAttribute('href'));
-      
-      target.scrollIntoView({
-        behavior: 'smooth'
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        const target = document.querySelector(this.getAttribute("href"));
+
+        target.scrollIntoView({
+          behavior: "smooth",
+        });
       });
     });
-  });
   </script>
 </html>
