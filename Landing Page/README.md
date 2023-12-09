@@ -1,18 +1,18 @@
-# landing-page
+# Landing-page
 This project was to build a website from scratch using HTML/CSS as a Landing Page. This is my 2nd assignment from the Codsoft Intership Program.
-# links
+## links
 [Live Site]()
 
 
-# sections
+## sections
 The site has a navbar, hero section, how it works section with 4 steps, testimonial section with only one testimonial, CTA section with a button and a simple footer section.
 
-# features
+## features
 - Responsive
 - Mobile First
 - CSS Grid
 - CSS Flexbox
 
-# tools
+## tools
 VSCode - IDE
 SVGRepo - All svg icons
