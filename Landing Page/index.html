@@ -1,13 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Landing Page</title>
-</head>
-<body>
-    <h1>
-        Hello World
-    </h1>
-</body>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo-wrapper">
+          <a href="./"><h1>Landing Page</h1></a>
+        </div>
+
+        <ul class="nav-links">
+          <a href="#"><li>Features</li></a>
+          <a href="#"><li>Pricing</li></a>
+          <a href="#"><li>Blog</li></a>
+          <a href="#"><li>Contact</li></a>
+        </ul>
+
+        <div class="buttons-group">
+          <a href="#" class="button-link">Log In</a>
+          <a href="#" class="button secondary">Try For Free</a>
+        </div>
+      </nav>
+
+      <section class="cover-page">
+        <div class="hero-content">
+          <h1>
+            The <strong><span>Intelligent</span></strong> Way To Manage Projects
+          </h1>
+          <p>
+            Navigate Projects with <em>Precision</em> and <em>Ease</em> through
+            Our Comprehensive Suite of Intelligent Project Management Solutions,
+            Customized to <em>Elevate</em> Team Collaboration and Drive Success
+          </p>
+          <div class="buttons-group">
+            <a href="#" class="button primary">Get Started</a>
+            <a href="#" class="button">Learn More</a>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img src="./images/dashboard.svg" alt="Dashboard illustration" />
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="how-section">
+        <h2>How It Works</h2>
+        <div class="cards">
+          <div class="card">
+            <img
+              src="./images/get-started.svg"
+              alt="Icon of an account holder"
+              class="card-img"
+            />
+            <img src="./images/1.svg" alt="Number One" class="num" />
+            <div class="custom-h6">Get Started</div>
+            <p class="card-text">
+              Quickly set up your InsightFlow account to access smart project
+              management tools.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="./images/launch.svg"
+              alt="Icon showing a group of projects"
+              class="card-img"
+            />
+            <img src="./images/2.svg" alt="Number Two" class="num" />
+            <div class="custom-h6">Launch Projects</div>
+            <p class="card-text">
+              Effortlessly begin projects by defining goals and assigning tasks
+              on InsightFlow.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="./images/team.svg"
+              alt="Icon showing a team collaborating"
+              class="card-img"
+            />
+            <img src="./images/3.svg" alt="Number Three" class="num" />
+            <div class="custom-h6">Team Collaboration</div>
+            <p class="card-text">
+              Enhance teamwork with InsightFlow's collaborative tools for
+              seamless communication.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="./images/progress.svg"
+              alt="A monitor showing progress of projects"
+              class="card-img"
+            />
+            <img src="./images/4.svg" alt="Number Four" class="num" />
+            <div class="custom-h6">Progress Monitoring</div>
+            <p class="card-text">
+              Track projects easily by monitoring progress through InsightFlow's
+              intuitive dashboards.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial-section">
+        <div class="testimonial-card flex">
+          <img
+            src="./images/pfp.webp"
+            alt="Profile Picture of testimonial user"
+            class="pfp"
+          />
+          <p class="testimonial-text">
+            <em
+              >I've tried numerous project management tools, but none compare to
+              the simplicity and intelligence of InsightFlow. This platform
+              revolutionized the way we handle projects. From effortless
+              onboarding to real-time collaboration and insightful analytics,
+              InsightFlow has become our go-to solution. It's like having a
+              project management genius at our fingertips! Highly recommend it
+              to any team looking for a smarter way to work.</em
+            >
+          </p>
+          <div class="custom-h6">- Arthur Leywin, Him</div>
+        </div>
+      </section>
+      <section class="cta-section">
+        <div class="cta">
+          <div class="cta-content">
+            <div class="custom-h6 left">
+              Unlock the Future of Project Management
+            </div>
+            <p class="cta-text">
+              Try Now and Elevate Your Team's Productivity with InsightFlow
+            </p>
+          </div>
+          <div class="cta-button">
+            <a href="#" class="button third">Sign Up Today</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="footer">
+      <p>Copyright © Santosh Yadav 2023</p>
+    </section>
+  </body>
 </html>

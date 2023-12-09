@@ -1,0 +1,342 @@
+/* Styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(31, 41, 55, 1);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #1F2937;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 110%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 110%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: center;
+}
+
+.custom-h6 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 150%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+
+
+.button {
+    border-radius: 0.5rem;
+    border: 2px solid #4694DD;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.button.primary {
+    background: #4694DD;
+}
+
+.button.primary:hover {
+    background: rgb(0, 251, 255);
+    color: #4694DD;
+    border: 2px solid rgb(0, 251, 255);
+
+}
+
+.button:hover{
+    background: #4694DD;
+}
+
+
+
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 5rem;
+    color: rgb(230, 225, 225);
+}
+
+.navbar h1 {
+
+    font-size: 2rem;
+
+}
+
+.navbar .nav-links {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    gap: 1rem;
+}
+
+.navbar .buttons-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 5rem;
+    }
+
+    .navbar .nav-links {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .navbar .buttons-group {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .navbar .nav-links a {
+        font-size: 1.2rem;
+    }
+
+
+
+}
+
+.cover-page {
+
+    display: flex;
+    min-height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 5rem;
+    color: rgb(230, 225, 225);
+
+}
+
+
+.cover-page .buttons-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+@media screen and (min-width: 768px) {
+    .cover-page {
+
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 5rem;
+    }
+
+    .cover-page .buttons-group {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .cover-page .nav-links a {
+        font-size: 1.2rem;
+    }
+
+    .cover-page h1 {
+
+        font-size: 2rem;
+
+    }
+
+}
+
+/* main */
+
+.main {}
+
+main .cards {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 5rem;
+    color: rgb(230, 225, 225);
+
+}
+
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 5rem;
+    color: rgb(230, 225, 225);
+    background-color: white;
+    border-radius: 1rem;
+}
+
+
+
+.button.primary {
+    background: #4694DD;
+}
+
+
+
+
+
+
+.buttons-group.hero {
+    gap: 1rem;
+    font-weight: 600;
+}
+
+span {
+    background: linear-gradient(91deg, #4694DD 11.52%, #0FF 49.71%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.how-section {
+    background-color: white;
+    padding: 7rem 0;
+}
+
+
+
+
+
+.card-text {
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 18px;
+    color: rgba(31, 41, 55, 0.80);
+}
+
+.num {
+    width: 30px;
+    height: 30px;
+}
+
+.card-img {
+    height: 97px;
+    margin-bottom: 1rem;
+}
+
+.testimonial-section {
+    background: #E5E7EB;
+    padding: 7rem;
+}
+
+.testimonial-card {
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.testimonial-text {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 160%;
+}
+
+.pfp {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 6.25rem;
+}
+
+.cta-section {
+    padding: 5rem 0;
+    background-color: white;
+    color: white;
+}
+
+.cta {
+    background-color: #4694DD;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.cta-text {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0.5rem 0;
+
+}
+
+.cta-button a {
+    color: white;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: solid 2px white;
+
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
