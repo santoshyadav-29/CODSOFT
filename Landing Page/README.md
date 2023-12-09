@@ -5,7 +5,7 @@ This project was to build a website from scratch using HTML/CSS as a Landing Pag
 
 ## links
 
-[Live Site]()
+[Live Site](https://codsoft-landingpageproject.netlify.app)
 
 ## sections
 

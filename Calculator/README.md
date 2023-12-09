@@ -7,7 +7,7 @@ operations.
 
 ## links
 
-[Live Site]()
+[Live Site](https://codsoft-calculatorproject.netlify.app)
 
 ## sections
 
