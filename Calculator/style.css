@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    
+    max-width: 375px;
+    /* height: 645px; */
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: #18212a;
+    border: 13px solid #1c2129;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    height: 225px;
+    border-radius: 30px;
+    background-color: #3b4f63;
+    font-family: 'roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.calc {
+    margin: 23px auto 0 23px;
+    color: rgb(231, 231, 231);
+}
+
+.result {
+    width: 330px;
+    text-align: right;
+    align-self: end;
+    margin: auto 23px auto 0;
+    font-size: 36px;
+    overflow-x: auto;
+}
+
+button,
+.button {
+    border-width: 0;
+    padding-inline: 0;
+    padding-block: 0;
+    border: 3px solid #1c2129;
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    padding: 0px;
+}
+
+.buttons-container {
+    display: flex;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: rgb(201, 201, 201);
+}
+
+button.ac:hover {
+    background-color: #de2e2c;
+}
+
+button.del:hover {
+    background-color: #1decff;
+}
+
+button.equals:hover {
+    background-color: #00d500;
+}
+
+.button,
+.top-btn {
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.acdel {
+    display: flex;
+}
+
+.top-btn {
+    flex: 1 0 80px;
+    height: 80px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 0px;
+}
+
+.ac {
+    background-color: #f03f3d; 
+    color: white;
+}
+
+.del {
+    background-color: #adf8ff;
+}
+
+.equals {
+    background-color: #31e431;
+}
+
+#operators {
+    display: flex;
+    flex-direction: column;
+}
+
+.mult.button {
+    padding-top: 8px;
+}
+
+.dot.button {
+    padding-bottom: 13px;
+    font-size: 25px;
+}
+
+.numbers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.num {
+    flex:1 0 80px;
+    box-sizing: border-box;
+    height: 80px;
+    border-radius: 20px;
+    padding: 0px;
+}
+
+
+.op {
+    flex: 0 0 100px;
+}
